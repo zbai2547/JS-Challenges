@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="character-generator.css">
+    </head>
+    <body>
+    <div class="content">
+    <h1>Adventurer Name Generator</h1>
+    <h2>Choose your Class!</h2>
+    <img id="adventurerImg" alt="a picture of an Adventurer" src="img/healer.png">
+    <p id="adventurerClass">warrior</p>
+    <div class="button-container">
+        <button onclick="prevClass(charClassArr)">Previous</button>
+        <button onclick="nextClass(charClassArr)">Next</button>
+        </div>
+    <h2>Name your Adventurer!</h2>
+    <h1 id="adventurerName"></h1>
+    <div class="button-container">
+        <button onclick="generateName(charFirstNames, charLastNames)">Generate Name</button>
+    </div> 
+    <h2>Saved Characters</h2>
+    <div class="button-container">
+        <button onclick="saveCharacter()">Save Character</button>
+    </div> 
+    <ul id="savedCharacters"></ul>
+    </div>
+      <script src="character-helpers.js"></script>
+      <script src="character-generator.js"></script>           
+</body>
+    </html>
+
+  

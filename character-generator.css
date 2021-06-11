@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Cormorant Infant', serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: center / cover no-repeat url(background.jpg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.content > * {
+    margin-bottom: .5rem;
+}
+
+h1,h2,p,li {
+    text-shadow: black 0 0 1rem;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+button {
+    width: 100px;
+}
+
+img {
+    height: 200px;
+}
